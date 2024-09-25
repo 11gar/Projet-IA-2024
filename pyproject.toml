@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "projetia"
+version = "1"
+description = "Projet feat Ansgar et COline"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
